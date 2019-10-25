@@ -1,15 +1,15 @@
-## TypeScript
+# TypeScript基础语法解析
 
-#### 1、字符串新特性
+### 1、字符串新特性
 
-###### （1）多行字符串
+##### （1）多行字符串
 
 ```
 var str = `aaa
 bbb
 ccc`;
 ```
-###### （2）字符串模板
+##### （2）字符串模板
 
 ```
 var name = "zhang san";
@@ -23,7 +23,7 @@ console.log(`<div>
 <span>${name}</span>
 </div>`)
 ```
-###### （3）自动拆分字符串
+##### （3）自动拆分字符串
 
 ```
 function test(tpl, name, age){
@@ -39,9 +39,9 @@ var getAge = function(){
 
 test`hello my name is ${name}, I'am ${getAge()}`
 ```
-#### 2、参数新特性
+### 2、参数新特性
 
-###### （1）参数类型
+##### （1）参数类型
 
 在参数名称后面使用冒号来指定参数的类型。
 
@@ -63,7 +63,7 @@ var zhangsan: Person = new Person();
 zhangsan.name = "zhang san";
 zhangsan.age = 18;
 ```
-###### （2）默认参数
+##### （2）默认参数
 
 在参数声明后面用等号来指定参数的默认值。
 
@@ -75,7 +75,7 @@ function test(a: string, b: string, c: number = 20){
     console.log(c);
 }
 ```
-###### （3）可选参数
+##### （3）可选参数
 
 在方法的参数声明后面用问号来标明次参数为可选参数。
 
@@ -87,9 +87,9 @@ function test(a: string, b?: string, c: number = 20){
     console.log(c);
 }
 ```
-#### 3、函数新特性
+### 3、函数新特性
 
-###### （1）Rest and Spread操作符
+##### （1）Rest and Spread操作符
 
 用来声明任意数量的方法参数。
 
@@ -113,7 +113,7 @@ var arr2 = [7,8,9,10,11];
 func2(...arr1);// 打印出1 2 undefinded
 func2(...arr2);//打印出7 8 9
 ```
-###### （2）generator函数
+##### （2）generator函数
 
 控制函数的执行过程，手工暂停和恢复代码执行。
 
@@ -133,7 +133,7 @@ func.next() // start
 func.next() // end
 
 ```
-###### （3）destructuring析构表达式
+##### （3）destructuring析构表达式
 
 通过表达式将对象或数组拆解成任意数量的变量。
 
@@ -180,9 +180,9 @@ function doSomething([num1, num2, ...others]){
     console.log(others);// [3,4]
 }
 ```
-#### 4、表达式和循环
+### 4、表达式和循环
 
-###### （1）箭头表达式
+##### （1）箭头表达式
 
 用来声明匿名函数，消除传统匿名函数的this指针问题。
 
@@ -191,7 +191,7 @@ function doSomething([num1, num2, ...others]){
 var sum = (arg1, arg2) => arg1 + arg2;
 ```
 
-###### （2）forEach(),for in和for of
+##### （2）forEach(),for in和for of
 
 ```
 var myArr = [1,2,3,4];
@@ -211,4 +211,4 @@ for(var m in myArr){
     console.log(m); // 1,2
 }
 ```
-#### 5、面向对象特性
+### 5、面向对象特性
