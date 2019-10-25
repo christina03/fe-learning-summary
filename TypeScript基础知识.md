@@ -212,3 +212,134 @@ for(var m in myArr){
 }
 ```
 ### 5、面向对象特性
+
+##### （1）类（Class）
+
+类是TypeScript的核心，使用TypeScript开发时，大部分代码都是写在类里面的。
+
+###### 类的定义
+
+```
+// 访问控制符public/private/protected，不加的时候默认是public
+class Person {
+    private name; // 此时无法在外部访问到
+    eat(){
+        console.log('I'm eating');
+    }
+}
+
+// 类的实例化
+var p1 = new Person();
+```
+###### 构造函数
+
+```
+class person2{
+    // 构造函数不能在外部进行访问，它只在实例化的时候执行一次
+    // 在构造函数上声明访问控制符，这么写的时候表示声明了一个name属性，并且实例化的时候要为其赋值
+    constructor(public name: string){ 
+        
+    }
+    eat(){
+        console.log(this.name);
+    }
+}
+
+var p = new Person('zhangsan'); // 输出zhangsan
+```
+
+###### 类的继承
+
+```
+class person2{
+    constructor(public name: string){ 
+        console.log('haha');
+    }
+    eat(){
+        console.log(this.name);
+    }
+}
+
+class Employee extends Person{
+    constructor(name: string, code: string){
+        super(name); // 子类构造函数必须要调用父类构造函数，通过super()方法调动
+        this.code = code;
+        console.log('xixi');
+    }
+    work(){
+        super.eat();// 通过super调用父类方法
+        this.doWork();
+    }
+    private doWork(){
+        console.log('do work')
+    }
+}
+
+var p1 = new Employee('ceshi'); // ceshi
+```
+##### （2）泛型（generic）
+
+参数化的类型，一般用来限制集合的内容。
+
+```
+class person2{
+    constructor(public name: string){ 
+        console.log('haha');
+    }
+    eat(){
+        console.log(this.name);
+    }
+}
+
+var workers: Array<Person> = [];
+workers[0] = new Person("ceshi");
+```
+##### （3）接口（Interface）
+
+用来建立某种代码约定，使得其它开发者在调用某个方法或创建新的类时必须遵循接口所定义的代码约定。
+
+```
+// 实例一：接口作为函数参数
+interface IPerson{
+    name: string;
+    age: number;
+}
+
+class Person{
+    constructor(public config: IPerson){
+        
+    }
+}
+
+var p1 = new Person({
+    name: "zhangsan",
+    age: 18
+})
+```
+
+```
+// 实例二：声明实现接口的类里面必须实现接口里面的方法
+interface Animal{
+    eat();
+}
+
+class Sheep implements Animal{
+    eat(){ // 该方法必须写
+        console.log('eat grass');
+    }
+}
+```
+##### （4）模块（Module）
+
+模块可以帮助开发者将代码分割为可重用的单元。开发者可以自己决定将模块中的哪些资源（类、方法、变量）暴露出去供外部使用，哪些资源只在模块内使用。
+
+##### （5）注解（annotation）
+
+注解为程序的元素（类、方法、变量）加上更直观明了的说明，这些说明信息与程序的业务逻辑无关，而是供指定的工具或框架使用的。
+
+##### （6）类型定义文件（*.d.ts）
+
+类型定义文件用来帮助开发者在TypeScript中使用已有的JavaScript的工具包，如：JQuery。
+
+一些基本的类型定义文件：
+[DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
