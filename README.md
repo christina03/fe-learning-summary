@@ -8,6 +8,10 @@
 
 [TypeScript基础语法解析](./TypeScript基础知识.md)
 
+### JavaScript基础知识
+
+[JS实现千分位分割](./JS实现千分位分割.md)
+
 
 ## 工作中遇到问题记录
 
