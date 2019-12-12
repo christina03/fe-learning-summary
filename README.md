@@ -6,13 +6,13 @@
 
 ### TypeScript
 
-[TypeScript基础语法解析](./TypeScript基础知识.md)
+[TypeScript基础语法解析](./typescript/TypeScript基础知识.md)
 
 ### JavaScript基础知识
 
-[Iframe动态设置高度](./Iframe动态设置高度.md)
-[JS实现千分位分割](./JS实现千分位分割.md)
-[JQuery实现图片上传](./Jquery上传图片.md)
+[Iframe动态设置高度](./js/Iframe动态设置高度.md)
+[JS实现千分位分割](./js/JS实现千分位分割.md)
+[JQuery实现图片上传](./js/Jquery上传图片.md)
 
 
 ### Vue基础知识
