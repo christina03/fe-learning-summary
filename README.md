@@ -18,6 +18,7 @@
 ### Vue基础知识
 
 [v-model原理](./vue/v-model原理.md)
+[Vue.use与Vue.prototype.$XXX的用法区别](./vue/Vue.use与Vue.prototype.$XXX的用法区别.md)
 
 
 
