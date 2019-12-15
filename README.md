@@ -10,17 +10,20 @@
 
 ### JavaScript基础知识
 
-[Iframe动态设置高度](./js/Iframe动态设置高度.md)
-[JS实现千分位分割](./js/JS实现千分位分割.md)
-[JQuery实现图片上传](./js/Jquery上传图片.md)
+1.[Iframe动态设置高度](./js/Iframe动态设置高度.md)
+
+2.[JS实现千分位分割](./js/JS实现千分位分割.md)
+
+3.[JQuery实现图片上传](./js/Jquery上传图片.md)
 
 
 ### Vue基础知识
 
-[vue数据双向绑定原理](./vue/vue数据双向绑定原理.md)
-[v-model原理](./vue/v-model原理.md)
-[Vue.use与Vue.prototype.$XXX的用法区别](./vue/Vue.use与Vue.prototype.$XXX的用法区别.md)
-[Vue在开发过程中的注意事项](./vue/vue在开发过程中的注意事项.md)
+1.[MVC与MVVM](./vue/mvc与mvvm的区别.md)
+2.[vue数据双向绑定原理](./vue/vue数据双向绑定原理.md)
+3.[v-model原理](./vue/v-model原理.md)
+4.[Vue.use与Vue.prototype.$XXX的用法区别](./vue/Vue.use与Vue.prototype.$XXX的用法区别.md)
+5.[Vue在开发过程中的注意事项](./vue/vue在开发过程中的注意事项.md)
 
 
 
