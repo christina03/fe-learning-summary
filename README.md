@@ -20,9 +20,13 @@
 ### Vue基础知识
 
 1.[MVC与MVVM](./vue/mvc与mvvm的区别.md)
+
 2.[vue数据双向绑定原理](./vue/vue数据双向绑定原理.md)
+
 3.[v-model原理](./vue/v-model原理.md)
+
 4.[Vue.use与Vue.prototype.$XXX的用法区别](./vue/Vue.use与Vue.prototype.$XXX的用法区别.md)
+
 5.[Vue在开发过程中的注意事项](./vue/vue在开发过程中的注意事项.md)
 
 
