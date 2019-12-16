@@ -8,7 +8,7 @@
 
 ### 2、MVVM
 
-![原理图](./res/vue/mvvm.png)
+![原理图](./res/mvvm.png)
 
 >MVVM（Model-View-ViewModel）【Model】指的是后端传递的数据；【View】指的是所看到的页面；【ViewModel】它是链接view、model的桥梁，是mvvm的核心。
 
