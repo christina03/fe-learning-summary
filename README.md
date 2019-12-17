@@ -31,6 +31,8 @@
 
 6.[Vue生命周期](./vue/vue生命周期.md)
 
+7.[Virtual DoM](./vue/VirtualDoM.md)
+
 
 
 
