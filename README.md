@@ -33,6 +33,8 @@
 
 7.[Virtual DoM](./vue/VirtualDoM.md)
 
+8.[VUE渲染过程](./vue/VUE渲染过程.md)
+
 
 
 
