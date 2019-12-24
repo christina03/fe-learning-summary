@@ -35,7 +35,9 @@
 
 8.[VUE渲染过程](./vue/VUE渲染过程.md)
 
-8.[VUE全局变量的几种实现方式](./vue/VUE全局变量的几种实现方式.md)
+9.[VUE全局变量的几种实现方式](./vue/VUE全局变量的几种实现方式.md)
+
+10.[v-cloak](./vue/v-cloak.md)
 
 
 
