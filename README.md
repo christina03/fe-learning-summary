@@ -39,6 +39,8 @@
 
 10.[v-cloak](./vue/v-cloak.md)
 
+11.[vue与react的区别](./vue/vue与react的区别.md)
+
 
 
 
