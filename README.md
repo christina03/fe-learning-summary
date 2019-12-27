@@ -43,7 +43,8 @@
 
 ### ES6基础知识
 
-1.[ES3和ES5与ES6对比](./ES6/ES3和ES5与ES6对比.md)
+1.[ES6基础知识](./ES6/ES6基础知识.md)
+2.[ES3和ES5与ES6对比](./ES6/ES3和ES5与ES6对比.md)
 
 
 
