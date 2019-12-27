@@ -41,7 +41,9 @@
 
 11.[vue与react的区别](./vue/vue与react的区别.md)
 
+### ES6基础知识
 
+1.[ES3和ES5与ES6对比](./ES6/ES3和ES5与ES6对比.md)
 
 
 
